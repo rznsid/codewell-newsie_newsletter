@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap");
+
+:root {
+  --background-blue: rgb(46, 74, 231);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background: url("Assets/Background.png") no-repeat center center fixed;
+  background-size: cover;
+  font-family: "Work Sans", sans-serif;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  transition: ease-in-out 0.2s;
+  font: inherit;
+}
+
+.subscription-card {
+  width: 400px;
+  margin: 15% auto;
+  text-align: center;
+  background-color: white;
+  border-radius: 0.5rem;
+}
+
+.subscription-card__content {
+  padding: 1.5rem;
+  font-size: 0.85rem;
+}
+
+.subscription-card__hero {
+  background: url("Assets/Pattern.png");
+  background-color: var(--background-blue);
+  border-radius: 0.5rem 0.5rem 0 0;
+  color: #fff;
+  font-size: 1.65rem;
+  padding: 3.5rem;
+  font-weight: 500;
+}
+
+.subscription-card__text {
+  opacity: 0.7;
+  font-size: 0.85rem;
+}
+
+.subscription-card__form {
+  text-align: left;
+  height: 2.5rem;
+  margin-top: 1.5rem;
+}
+
+.subscription-card__inputrow {
+  display: flex;
+  justify-content: space-between;
+}
+
+.subscription-card__form input {
+  border-radius: 0.25rem;
+  border: 1px solid rgb(219, 219, 219);
+  background-color: rgb(243, 243, 243);
+  padding-left: 1rem;
+  font: inherit;
+  font-size: 0.9rem;
+  color: rgb(150, 150, 150);
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+.subscription-card__formtext {
+  opacity: 0.35;
+  font-size: 0.85rem;
+  text-align: left;
+  margin-top: 1rem;
+}
+
+.subscription-card__form button {
+  background: var(--background-blue);
+  padding: 0.85rem 1.5rem;
+  color: #fff;
+  border-radius: 0.4rem;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.testimonial__header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.9rem;
+  margin-top: 2rem;
+}
+
+.testimonial__avatar {
+  margin-right: 0.5rem;
+}
+
+.testimonial__author {
+  font-weight: 600;
+  text-align: left;
+}
+
+.testimonial__text {
+  opacity: 0.7;
+  font-size: 0.85rem;
+  line-height: 1.2rem;
+  margin-top: 0.75rem;
+}
